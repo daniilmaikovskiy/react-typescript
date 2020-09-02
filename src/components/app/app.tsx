@@ -6,7 +6,8 @@ const App = () => {
 
   return (
     <div className={classes.wrapper} style={wrapperStyle}>
-      <h1 className={classes.greeting}>Welcome to my TypeScript react-app-template</h1>
+      <h1>Welcome to my TypeScript react-app-template</h1>
+      <div className={classes.alertAndSpinner} />
       <span className={classes.signature}>Author: daniil maikovskiy</span>
     </div>
   );
