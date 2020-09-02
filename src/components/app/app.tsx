@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from './app.module.scss';
 import Spinner from '../spinner';
-import ErrorAlert from '../error-alert';
 
 const App = () => {
   const wrapperStyle: React.CSSProperties = { minHeight: window.innerHeight };
