@@ -2,8 +2,8 @@ import React, { FC } from 'react';
 import { Pagination } from 'antd';
 
 type Props = {
-  total: number;
-  current: number;
+  total?: number;
+  current?: number;
   className?: string;
   onChange?: (page: number, pageSize?: number | undefined) => void;
 };

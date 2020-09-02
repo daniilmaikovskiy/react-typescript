@@ -2,8 +2,8 @@ import React, { forwardRef, HTMLProps, Ref, Key } from 'react';
 import classes from './text-area.module.scss';
 
 export interface Props extends HTMLProps<HTMLTextAreaElement> {
-  signature: string;
-  className: string;
+  signature?: string;
+  className?: string;
   ref: Ref<HTMLTextAreaElement>;
   key?: Key;
 }

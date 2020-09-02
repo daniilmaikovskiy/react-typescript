@@ -1,5 +1,7 @@
 import React from 'react';
 import classes from './app.module.scss';
+import Spinner from '../spinner';
+import ErrorAlert from '../error-alert';
 
 const App = () => {
   const wrapperStyle: React.CSSProperties = { minHeight: window.innerHeight };
@@ -7,7 +9,7 @@ const App = () => {
   return (
     <div className={classes.wrapper} style={wrapperStyle}>
       <h1>Welcome to my TypeScript react-app-template</h1>
-      <div className={classes.alertAndSpinner} />
+      <Spinner wrapperClassName={classes.spinner} />
       <span className={classes.signature}>Author: daniil maikovskiy</span>
     </div>
   );

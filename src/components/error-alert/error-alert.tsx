@@ -4,7 +4,7 @@ import classes from './error-alert.module.scss';
 
 type Props = {
   description: string;
-  wrapperClassName: string;
+  wrapperClassName?: string;
 };
 
 const ErrorAlert: FC<Props> = ({ wrapperClassName = '', description }) => {

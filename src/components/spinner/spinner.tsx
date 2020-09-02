@@ -3,7 +3,7 @@ import { Spin } from 'antd';
 import classes from './spinner.module.scss';
 
 type Props = {
-  wrapperClassName: string;
+  wrapperClassName?: string;
 };
 
 const Spinner: FC<Props> = ({ wrapperClassName = '' }) => {

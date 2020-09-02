@@ -2,8 +2,8 @@ import React, { forwardRef, HTMLProps, Ref, Key } from 'react';
 import classes from './text-input.module.scss';
 
 export interface Props extends HTMLProps<HTMLInputElement> {
-  signature: string;
-  className: string;
+  signature?: string;
+  className?: string;
   ref: Ref<HTMLInputElement>;
   key?: Key;
 }
