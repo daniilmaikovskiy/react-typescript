@@ -7,7 +7,7 @@ const App = () => {
 
   return (
     <div className={classes.wrapper} style={wrapperStyle}>
-      <h1>Welcome to my TypeScript react-app-template</h1>
+      <h1>Welcome to my React TypeScript app</h1>
       <Spinner wrapperClassName={classes.spinner} />
       <span className={classes.signature}>Author: daniil maikovskiy</span>
     </div>

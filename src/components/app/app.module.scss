@@ -6,15 +6,15 @@
   width: 100%;
   background-color: red;
   background-image: linear-gradient(to bottom, blue, pink, white, pink, blue);
+
+  .spinner {
+    position: static;
+    margin-top: 20px;
+  }
 }
 
 .signature {
   position: fixed;
   bottom: 10px;
   left: 10px;
-}
-
-.spinner {
-  position: static;
-  margin-top: 100px;
 }
